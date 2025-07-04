@@ -55,9 +55,9 @@ For more options and configurations, please refer to the `train.py` file.
 
 We thank the authors of the following repositories for their publicly available code, which greatly supported our research:
 
-- [ChebyKAN](https://github.com/<link>)
-- [WIRE](https://github.com/<link>)
-- [FINER](https://github.com/<link>)
+- [ChebyKAN](https://github.com/SynodicMonth/ChebyKAN)
+- [WIRE]([https://github.com/<link>](https://github.com/vishwa91/wire))
+- [FINER](https://github.com/liuzhen0212/FINER)
 
 ---
 
