@@ -1,0 +1,15 @@
+scikit-image
+PyMCubes 
+plyfile
+trimesh
+pysdf
+ipywidgets
+pycollada
+torch
+opencv-python
+matplotlib
+tqdm
+numpy
+skimage
+Pillow
+pytorch_msssim
