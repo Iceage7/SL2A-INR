@@ -1,7 +1,7 @@
 # SL²A-INR: Single-Layer Learnable Activation for Implicit Neural Representation  
 
-This repository contains the implementation for the paper:  
-**"SL²A-INR: Single-Layer Learnable Activation for Implicit Neural Representation"**
+This repository contains the implementation for the ![ICCV 2025](https://img.shields.io/badge/ICCV-2025-purple?style=for-the-badge&logo=google-scholar) paper:  
+📄 **[SL²A-INR: Single-Layer Learnable Activation for Implicit Neural Representation](https://arxiv.org/abs/2409.10836)**
 
 ---
 
