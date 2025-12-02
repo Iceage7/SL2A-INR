@@ -45,7 +45,7 @@ For more options and configurations, please refer to the `train.py` file.
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 We thank the authors of the following repositories for their publicly available code, which greatly supported our research:
 
@@ -55,7 +55,7 @@ We thank the authors of the following repositories for their publicly available 
 
 ---
 
-## 📚 Citation
+## Citation
 
 If you find our work useful, please consider citing:
 
@@ -69,5 +69,6 @@ If you find our work useful, please consider citing:
 }
 ```
 ---
+
 
 
