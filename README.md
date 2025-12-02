@@ -10,7 +10,7 @@ This repository contains the implementation for the ![ICCV 2025](https://img.shi
 Implicit Neural Representation (INR), leveraging a neural network to transform coordinate input into corresponding attributes, has recently driven significant advances in several vision-related domains. However, the performance of INR is heavily influenced by the choice of the nonlinear activation function used in its multilayer perceptron (MLP) architecture. To date, multiple nonlinearities have been investigated, but current INRs still face limitations in capturing high-frequency components and diverse signal types. 
 
 We show that these challenges can be alleviated by introducing a novel approach in INR architecture. Specifically, we propose **SL²A-INR**, a hybrid network that combines a single-layer learnable activation function with an MLP that uses traditional ReLU activations. Our method performs superior across diverse tasks, including image representation, 3D shape reconstruction, and novel view synthesis. Through comprehensive experiments, SL²A-INR sets new benchmarks in accuracy, quality, and robustness for INR.
-![](images/image.jpeg)
+![](images/image.jpg)
 
 ---
 
@@ -70,6 +70,7 @@ If you find our work useful, please consider citing:
 }
 ```
 ---
+
 
 
 
