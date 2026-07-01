@@ -35,7 +35,7 @@ parser.add_argument('--hidden_layers', type=int, default=3, help="number of hidd
 parser.add_argument('--hidden_features', type=int, default=256, help='width of each hidden layer')
 parser.add_argument('--in_features', type=int, default=2, help="number of input features")
 parser.add_argument('--out_features', type=int, default=3, help="number of output features")
-parser.add_argument('--factor', type=int, default=4, help="down scale factor")
+parser.add_argument('--factor', type=int, default=1, help="down scale factor")
 parser.add_argument('--first_omega_0', type=int, default=30, help="(siren, wire, finer)")
 parser.add_argument('--hidden_omega_0', type=float, default=30, help='(siren, wire, finer)')    
 parser.add_argument('--scale', type=float, default=30, help='simga (wire, guass)') 
