@@ -3,6 +3,7 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 import argparse
+import copy
 import cv2
 from tqdm.notebook import tqdm
 
@@ -17,6 +18,7 @@ from modules import utils
 from modules.models import INR
 from SL2A_INR import SL2A
 from Finer import Finer
+
 
 
 parser = argparse.ArgumentParser(description='Image')
@@ -206,7 +208,7 @@ if __name__ == "__main__":
             best_loss = mse_array[step]
             best_img = imrec
             best_img = (best_img - best_img.min()) / (best_img.max() - best_img.min())
-            best_model = model
+            best_model = copy.deepcopy(model)
 
 
         ms_ssim_val = ssim(torch.tensor(im[None,...]).permute(0, 3, 1, 2),
